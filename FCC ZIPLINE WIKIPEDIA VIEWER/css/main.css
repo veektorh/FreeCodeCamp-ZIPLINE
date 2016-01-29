@@ -1,0 +1,72 @@
+/*
+    Rancho
+    lobster
+    Poiret one
+    euphoria script
+*/
+
+body{
+    background: url(../images/background.jpg);
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+
+.container{        
+    background: black;
+    opacity: 0.9;
+    width: 100%;
+    min-height: 800px;
+    color: white;
+}
+
+a , a:hover{
+    color: white;
+    text-decoration: none;
+}
+.social a{
+    color: red;
+}
+.header{
+    text-align: center;
+}
+.searchdiv{
+    width: 50%;
+    margin: 10% auto 5% auto;
+}
+.searchdiv input{
+    font-size: 150%;
+    color: white;
+}
+.searchdiv button{
+    width:15%;
+    margin: 0px 5%;
+    text-align: center;
+}
+
+.left{
+    float: left;
+}
+.searchbox{
+    width: 75%;
+    background-color: transparent;
+}
+
+.btn-primary{
+    background-color: transparent;
+}
+
+.result{
+    width: 50%;
+    margin: 0 auto 1% auto;
+    border: 1px solid #fff;
+    text-align: center;
+    border-radius: 10%;
+}
+
+.result a{
+    color: red;
+    font-family: 'Rancho';
+}
+hr{
+    border-top: 1px solid #fff;
+}

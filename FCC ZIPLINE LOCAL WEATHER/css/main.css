@@ -1,0 +1,57 @@
+/*
+    Rancho
+    lobster
+    Poiret one
+    euphoria script
+*/
+
+body{
+    background: url(../images/cloudy.jpg);
+}
+
+.center{
+ background: black; 
+ opacity: 0.8;
+ padding: 2% 0;
+ margin-top: 2%;
+ border-radius: 20px;
+}
+
+.container{
+    text-align: center;
+    color: white;
+}
+
+.header{
+    font-family: rancho;
+    font-size: 300%;
+}
+
+.content{
+    font-family: 'lobster two';
+    font-size: 300%;
+    margin-bottom: 5%;
+}
+
+a{
+    font-family: 'lobster two';
+    font-size: 100%;
+    color: green;
+}
+
+.content .city{
+    color:green;
+}
+
+.temp,.description{
+  color:orange;
+  font-weight:bold;
+}
+.information{
+    font-family: 'Poiret one'
+}
+
+.information span{
+    font-family: 'Poiret one';
+    font-size: 200%;
+}

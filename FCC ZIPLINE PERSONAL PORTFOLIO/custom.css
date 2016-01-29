@@ -1,0 +1,14 @@
+.navbar{
+    margin-bottom: 0px;
+}
+
+.btn:hover{
+
+  padding: 14px 20px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+  color: #fff;
+  background-color: black;
+  border-color: black;
+}

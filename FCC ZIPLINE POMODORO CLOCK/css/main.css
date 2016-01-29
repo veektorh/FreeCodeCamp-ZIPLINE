@@ -1,0 +1,74 @@
+/*
+    Poiret one
+    euphoria script
+
+*/
+
+.header{
+    background: whitesmoke;
+    height: 100px;
+    padding: 10px;
+}
+
+.header_right{
+    float: right;
+    margin-top: -4%;
+}
+
+.header > h1{
+    font-family: 'Poiret one';
+    text-align: left;
+}
+
+h2{
+    font-family: 'Calligraffitti',cursive,sans-serif;
+    font-size: 150%;    
+}
+
+h3{
+    font-family: 'euphoria script',cursive,sans-serif;
+    font-size: 350%;
+    border-bottom: 1px solid black;
+}
+
+p{
+    font-family: cursive,sans-serif;
+    font-size: 120%;
+}
+
+.session_clock > h2, .break_clock > h2{
+    margin-left: 20%;
+    font-size: 250%;
+}
+
+.inner_settings{
+    margin: 10% 0px;
+}
+
+.btn{
+    margin: 1%;
+}
+.buttons{
+    margin-left: 10%;
+}
+.sub_container{
+    margin: 2%;
+}
+
+.timer_container{
+    padding: 3%;
+    float: left;
+    width:400px;
+    background:whitesmoke;
+    margin-left : 3%;
+}
+
+.settings{
+    width:20%;
+    float: left; 
+}
+
+.faq{
+    float: right;
+    width: 35%;
+}

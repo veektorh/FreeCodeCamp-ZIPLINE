@@ -1,0 +1,118 @@
+/*
+    Rancho
+    lobster
+    Poiret one
+    euphoria script
+*/
+
+@font-face{
+    font-family: rancho;
+    src : url(Rancho-Regular.ttf);
+}
+
+body{
+    background: url(../images/255H%20-%20Copy.jpg);
+    background-attachment: fixed;
+    font-family: rancho, sans-serif;
+}
+
+.container{        
+    background: black;
+    opacity: 0.9;
+    width: 100%;
+    min-width: 400px;
+    min-height: 800px;
+    color: white;
+}
+
+.social a{
+    color: red;
+}
+.header{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.game{
+    margin: 0 auto;
+    width: 400px;
+}
+.box{
+    
+}
+
+.boxrow{
+    float: left;
+}
+
+.box{ 
+    border-bottom: 1px solid green;
+    border-right: 1px solid green;
+    text-align: center;
+    line-height: 90px;
+    height:90px;
+    width: 100px;
+    font-size: 400%;
+}
+
+.box-right{
+    border-right: none;
+}
+
+.box-bottom{
+    border-bottom: none;
+}
+.chooseletter{
+    border-radius: 10px;
+    background: white;
+    opacity: 0.6;
+    color: red;
+    text-align: center;
+    height: 200px;
+    padding: 1%;
+}
+
+.select{
+    border-radius: 50%;
+    float: left;
+    font-size: 400%;
+    margin: 1% 0 0 18%;
+    background: black;
+    width: 100px;
+    padding: 1%;
+    opacity: 0.4;
+    cursor: pointer;    
+}
+
+.select:hover{
+    border-radius: 0;
+    opacity: 1;
+    color: white;
+}
+
+.score{
+    padding: 4%;
+    display: inline-block;
+    position: relative;
+    top:30px;
+    left: 100px;
+    border: 1px solid white;
+    font-size: 150%;
+}
+
+.green{
+    color: green;
+}
+
+.tictactoe{
+    margin: 0 10%;
+}
+
+.info-modal{
+    margin: 0 33%;
+    border-radius: 10px;
+    border: 10px solid green;
+    padding: 5%;
+    position: absolute;
+    background: black;
+}

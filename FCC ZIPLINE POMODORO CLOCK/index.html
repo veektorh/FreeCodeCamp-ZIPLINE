@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pomodor Clock</title>
+    <link href='https://fonts.googleapis.com/css?family=Euphoria+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Cardo:400,400italic|Radley|Tangerine" rel="stylesheet">
+<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.min.css">-->
+   <link rel="stylesheet" href="css/flipclock.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" async src="https://platform.twitter.com/widgets.js"></script>
+</head>
+<body>
+       <div class="container">
+           
+            <div class="header">
+                <h1 class="">Pomodoro Timer</h1>
+                <div class="header_right">
+                    <a class="twitter-follow-button"  href="https://twitter.com/vic_softkid"  data-size="large">Follow @vicSoftkid</a>
+                <p>Made by <a href="http://codepen.io/veektorh/">Bolum Victor</a></p>
+                </div>
+                
+            </div>
+        <div class="sub_container">
+            <div class="settings">
+              <button class="btn btn-lg btn-default btn_settings">Setttings</button>
+               
+               <div class="div_settings">
+                   <h3>Settings</h3>
+                    <div class="inner_settings">
+                        <h2>Work Length</h2>
+                        <span><button class="btn btn_reduce_session_time">-</button></span><span class="session_time"> 25 </span><span><button class="btn btn_session_time">+</button>
+                        </span>
+                     </div>
+
+                    <div class="inner_settings">
+                       <h2>Break Length</h2>
+                        <span>
+                            <button class="btn btn_reduce_break_time">-</button></span><span class="break_time"> 5 </span><span><button class="btn btn_break_time">+</button>
+                        </span>
+                    </div>
+                    
+                    <button class="btn btn_close_settings">Close</button>
+               </div>
+            
+        
+            </div>
+            
+            <div class="timer_container">
+               <div class="session_clock">
+                  <h2>Time to Work</h2>
+                   <div class="clock" style="margin:2em;"></div>
+               </div>
+                
+                <div class="break_clock">
+                   <h2>Time for a break</h2>
+                    <div class="clock2" style="margin:2em;"></div>
+                </div>
+                
+                <div class="buttons">
+                    <button class="btn btn-lg btn-success start">Start</button>
+                    <button class="btn btn-lg btn-warning pause">Pause</button>
+                    <button class="btn btn-lg btn-default reset">Reset</button>
+                </div>
+            </div>
+            
+            
+             <div class="faq">
+                  <button class="btn btn-lg btn-default btn_faq">F A Q</button>
+                  <div class="div_faq">
+                      <h3>FAQ</h3>
+                   <p>Question : What is a pomodoro technique ?</p>
+                    <p class="message">The Pomodoro Technique is a time management method developed by Francesco Cirillo in the late 1980s. The technique uses a timer to break down work into intervals traditionally 25 minutes in length, separated by short breaks. These intervals are known as "pomodoros", the plural in English of the Italian word pomodoro meaning "tomato".  <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique" target="_blank">Continue reading</a></p><button class="btn btn_close_faq">Close</button>
+                  </div>
+                   
+                </div>
+        </div>
+        
+       
+        
+    </div>
+   
+   
+<!--    <script src ="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>-->
+        <script src="javascript/jquery.min.js"></script>
+<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.min.js"></script>-->
+   <script src="javascript/flipclock.min.js"></script>
+    <script src="javascript/script.js"></script>
+    <script>
+        
+    </script>
+</body>
+</html>

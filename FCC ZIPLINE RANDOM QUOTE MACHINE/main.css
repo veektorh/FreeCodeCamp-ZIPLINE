@@ -1,0 +1,54 @@
+body{
+    background-color: darkslategrey;
+}
+
+.center{
+    border-radius: 10%;
+    background-color: white;
+    margin: 2% auto;
+    width:800px;
+    padding: 10px;
+}
+/*
+
+'Poiret One'
+'Calligraffitti'
+'Euphoria Script'
+*/
+
+.header h1{
+    font-family: 'Euphoria Script', serif;
+    font-size: 500%;
+    margin: 0 0 0 100px;
+}
+
+.footer p{
+    font-family: 'Calligraffitti', serif;
+    font-size: 200%;
+    margin: 0 0 0 100px;
+}
+.quotes{
+    background-color: beige;
+    padding: 10px 10px 10px 10px ;
+    border-radius:10%;
+/*    width:500px;*/
+/*    border: 2px solid grey;*/
+    margin: 2% 13% ;
+}
+.text{
+    font-family: 'Poiret One', serif;
+    font-size: 200%;
+    display: block;
+}
+.author{
+    font-family: 'Poiret One', serif;
+    font-size: 250%;
+    display: block;
+    text-align: right;
+    color: coral;
+}
+.buttons{
+    margin: 2% 0 0  35% ;
+    font-family: 'Calligraffitti';
+    font-size: 200%;
+}

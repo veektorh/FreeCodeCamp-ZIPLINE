@@ -1,0 +1,104 @@
+/*
+    Rancho
+    lobster
+    Poiret one
+    euphoria script
+*/
+
+body{
+    background: url(../images/blackandwhite.gif);
+}
+.center{
+    margin: 2% auto;
+    width: 500px;
+    height: auto;
+    padding: 10px;
+    border: 5px solid white;
+    font-family: 'fredericka the great',cursive;
+    opacity: 0.9;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: aqua;
+}
+.logo{
+    width: 100%;
+}
+.logo img{
+    width: 100%;
+}
+
+.buttons{
+    width: 100%;
+    font-family: 'lobster two',cursive;
+    margin: 0 0 5px 15px;
+}
+
+button{
+    margin: 5px;
+    width: 28%;
+}
+
+.search{
+    width: 100%;
+    font-family: 'lobster two';
+    font-size: 130%;
+    border-radius: 10%;
+    padding: 5px;
+    letter-spacing: 4px;
+}
+ul{
+    list-style-type:none;
+    width: 110%;
+    margin-left: -9%;
+}
+
+li{
+    background: black;
+    font-size: 150%;
+    padding: 2%;
+    width: 100%;
+}
+li:hover{
+    background: white;
+    color: blue;
+}
+
+li:hover a{
+    color: blue;
+}
+
+.online{
+    color: green;
+}
+
+.offline{
+    color: orange;
+}
+
+.closed{
+    color: red;
+}
+
+.right{
+    float: right;
+    font-family: 'lobster two',cursive;
+}
+
+.hide{
+    display: none;
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer,.footer > a{
+    color: red;
+    font-family: 'lobster two',cursive;
+    font-size: 200%;
+}

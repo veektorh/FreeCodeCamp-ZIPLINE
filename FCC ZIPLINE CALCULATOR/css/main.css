@@ -1,0 +1,83 @@
+.calculator{
+    width: 350px;
+    background: whitesmoke;
+    margin: 5px auto;
+    border-radius: 10px;
+    padding: 15px 20px;
+}
+
+.header h1{
+    font-family: cursive;
+    text-align: center;
+    color: gainsboro;
+}
+
+.header p{
+    text-align: center;
+    color: grey;
+}
+
+.display{
+    margin: 0px 0px;
+    width: 300px;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 10px;
+    text-align: right;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-right: 5px;
+}
+#equals{
+}
+.main{
+    margin: 05px 5px;
+    float: left;
+}
+
+button{
+    background: gainsboro;
+    border-radius: 10px;
+}
+
+.right_align{
+    margin: 5px 0px;
+}
+.right_align > .operators > button{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+.numbers{
+    width: 220px;
+}
+.main > .operators > button{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.main > .numbers > button{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#off{
+    width: 110px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+}

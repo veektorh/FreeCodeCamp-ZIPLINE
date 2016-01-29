@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tictactoe game</title>
+<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css">
+<!--    <script type="text/javascript" async src="https://platform.twitter.com/widgets.js"></script>-->
+    
+</head>
+
+<body>
+   <div class="container">
+            <div class="header">
+                   <h1> TicTacToe </h1><a target="_blank" class="twitter-follow-button" href="https://twitter.com/vic_softkid"  data-size="large">Follow @vicSoftkid</a>
+                 <div class="social">
+                     <span> Made by <a target="_blank" href="http://codepen.io/veektorh/">Victor Bolum</a></span>   
+                     <h3>You wont beat me , But you can try <i class="fa fa-smile-o"></i></h3>           
+                 </div>
+           </div>
+           
+           <div class="info-modal infocompwin">
+               <h1>Computer wins !!! </h1>    
+           </div>
+           
+           <div class="info-modal infodrawgame">
+               <h1>Draw game !!! </h1>    
+           </div>
+           
+           <div class="info-modal infoplayerwin">
+               <h1>Player wins !!! </h1>    
+           </div>
+           
+           <div class="game">
+               <div class="chooseletter">
+                  <h1> Choose One </h1>
+               <div class="playerX select">X</div>
+                <div class="playerO select">O</div>
+               </div>
+           
+               <div class="tictactoe">
+                   <div class="firstrow boxrow">
+                       <div class="box num1"></div>
+                       <div class="box num4"></div>
+                       <div class="box num7 box-bottom"></div>
+                   </div>
+
+                   <div class="secondrow boxrow">
+                       <div class="box num2"></div>
+                       <div class="box num5"></div>
+                       <div class="box num8 box-bottom"></div>
+                   </div>
+
+                   <div class="thirdrow boxrow">
+                       <div class="box num3 box-right"></div>
+                       <div class="box num6 box-right"></div>
+                       <div class="box num9 box-bottom box-right"></div>
+
+                   </div>
+               </div>
+               <div class="score">
+                   <i class="thinking">Thinking ....<br></i>
+                   <span>Comp wins :</span><span class="compwin"> 0</span><br>
+                   <span>Player wins :</span><span class="playerwin">0</span><br>
+                   <span>Draws :</span><span class="draw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0</span>
+               </div>
+           </div>
+           
+           
+    </div>
+               
+    <script src="js/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

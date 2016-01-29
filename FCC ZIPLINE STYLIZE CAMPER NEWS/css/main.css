@@ -1,0 +1,94 @@
+/*
+    Rancho
+    lobster
+    Poiret one
+    euphoria script
+*/
+body{
+    background: black; 
+    background: url('https://media.giphy.com/media/RopTs3DIHoDfi/giphy.gif');
+    background-attachment: fixed;
+}
+.social{
+    font-family: 'rancho';
+    font-size: 150%;
+        color:white;
+    text-align: center;
+}
+.center{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header h1{
+    text-align: center;
+    color: aqua;
+    text-shadow: 0 0 15px #FF0000;
+    font-size: 300%;
+}
+h1{
+    font-family: 'lobster two',cursive;
+    font-size: 190%;
+}
+p{
+    font-family: 'rancho';
+    font-size: 150%
+}
+.left{
+    float: left;
+}
+.story{
+    background: #d5e3e3;
+    border: 3px solid white;
+    border-radius: 10%;
+    width: 30%;
+    height: 500px;
+    padding: 20px;
+    margin: 5px;
+}
+
+.storyImage{
+    border: 5px solid grey;
+    border-radius: 10%;
+    height: 150px;
+}
+
+.storyImage img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8%;
+}
+
+
+.userdetails{
+    height: 60px;
+    margin-bottom: 5%;
+}
+.userdetails img{
+    width: 50px;
+}
+
+.user{
+    float: left;
+    margin: 6% 0;
+}
+
+.user2{
+    float: right;
+}
+.clear{
+    float: none;
+}
+hr{
+    border-top: 3px dotted grey; 
+}
+.icons{
+    margin-left: 25%;
+}
+
+i{
+    margin: 0 20px 0 0;
+}
+.fa{
+    font-size: 20px;
+}

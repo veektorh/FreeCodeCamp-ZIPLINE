@@ -1,0 +1,172 @@
+/*
+    Rancho
+    lobster
+    Poiret one
+    euphoria script
+*/
+
+
+html, body {
+  min-height: 100%;
+}
+
+body {
+    background: url(../images/background.jpg);
+    color:white;
+}
+
+.container{
+    width: 40%;
+    margin: 0 auto;
+}
+.header{
+    text-align: center;
+    margin-bottom: 2%;
+    color: black;
+}
+.social a{
+    color: red;
+}
+.roundbox1{
+    background: transparent;
+    width: 500px;
+    border: 5px solid #312222;
+    height: 500px;
+    border-radius: 50%;
+}
+/*vertica; line*/
+.roundbox2{
+    position: absolute;
+    margin: 30px -155px;
+    height: 400px;
+}
+
+/*horizontal line*/
+.roundbox3{
+    margin: 250px 45px;
+    height: 400px;
+}
+
+.inner{
+    position: absolute;
+}
+
+.green{
+    opacity: 0.5;
+    background: darkgreen;
+    position: absolute;
+    margin: 10px 200px;
+    width: 200px;
+    height: 200px;
+    border-top-left-radius: 100%;
+}
+
+.red{
+    opacity: 0.5;
+    position: absolute;
+    background: #f85d5d;
+    margin: 10px 410px;
+    width: 200px;
+    height: 200px;
+    border-top-right-radius: 100%
+}
+.yellow{
+    opacity: 0.5;
+    background: yellow;
+    position: absolute;
+    margin: 0px 0px;
+    width: 200px;
+    height: 200px;
+    border-bottom-left-radius: 100%;
+}
+
+.blue{
+    opacity: 0.5;
+    background: blue;
+    margin: 0px 0 0 210px;
+    width:200px;
+    height: 200px;
+    border-bottom-right-radius: 100%
+}
+
+.controlpanel{
+    border-radius: 50%;
+    margin: -750px 150px; 
+    width: 200px;
+    height: 200px;
+    border: 10px solid #312222;
+    position: absolute;
+    background: white;
+    }
+.name{
+    position: absolute;
+    font-size: 250%;
+    margin: 10px 35px;
+    color: black;
+}
+.gamebtn{
+    cursor: pointer;
+}
+.screen{
+    cursor: not-allowed;
+    position: absolute;
+    margin: 80px 10px ;
+    width: 50px;
+    height: 30px;
+    background: black;
+    border-radius: 10px;
+    font-size: 150%;
+    text-align: center;
+}
+i{
+    color: black;
+}
+.count,.start,.strict,.stricton,.reset{
+    position: absolute;
+    color: black;
+    margin: 110px 10px;
+}
+.start{
+    margin: 110px 80px;
+}
+.strict{
+    margin: 110px 130px;
+}
+.gamebtn{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: red;
+    margin: 80px 80px;
+    border-radius: 50%;
+    border: 3px solid #696666
+}
+
+.strictbtn{
+    margin: 80px 130px;
+    background: orange;
+}
+
+.stricton{
+    cursor: not-allowed;
+    border: 0px solid black;
+    width:10px;
+    height: 10px;
+    background: black;
+    margin: 66px 140px;
+}
+
+.resetbtn{
+    font-size: 120%;
+    border-radius: 10px;
+    border: 3px solid #696666;
+    width:70px;
+    text-align: center;
+    height: 30px;
+    background: blue;
+    margin: 140px 60px;
+}
+
+.green{
+    background: #31e831;
+}

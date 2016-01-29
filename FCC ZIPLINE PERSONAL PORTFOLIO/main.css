@@ -1,0 +1,173 @@
+.first_section h1{
+    font-size: 400%;
+    font-family: 'Euphoria Script','Poiret One',cursive;
+}
+.first_section h2{
+    
+    font-family: 'Calligraffitti', cursive;
+    font-size:150%;
+}
+.second_section h1{
+    font-size: 400%;
+    font-family: 'Euphoria Script','Poiret One',cursive;
+}
+
+.second_section h2{
+    font-weight: bold;
+    font-size: 200%;
+    font-family: 'Poiret One',cursive;
+    color:white;
+}
+
+.second_section h3{
+    font-weight: bold;
+    font-size: 150%;
+    font-family: 'Poiret One',cursive;
+    color:white;
+}
+.third_section h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 250%;
+    font-family: 'Euphoria Script','Poiret One',cursive;
+
+}
+
+.third_section h3,p{
+    text-align: center;
+    font-size: 150%;
+    font-family: 'Poiret One',cursive;
+
+}
+
+.fourth_section h1,h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 300%;
+    font-family: 'Euphoria Script','Poiret One',cursive;
+
+}
+.fifth_section h1,h2{
+    text-align: center;
+    font-size: 300%;
+    font-family: 'Euphoria Script','Poiret One',cursive;
+
+}
+.navbar-brand{
+    font-family: 'Poiret One', cursive;
+    font-size: 300%;
+    font-weight: bolder;
+}
+
+.first_section{
+    background-image: url(https://40.media.tumblr.com/1b916597d3e174399cb7adadddb66ede/tumblr_nt5uk4psl31ud7rr3o1_1280.jpg);
+    height: 700px;
+    background-attachment:fixed;
+}
+
+.first_section_content{
+    background-color: whitesmoke;
+    color: #0d6c1c;
+    position:absolute;
+    margin: 150px 0 0 50px;
+    text-align: center;
+    width: 80%;
+    opacity: 0.9;
+    border-radius: 10%;
+}
+
+.first_section_social{
+    margin: 350px 0 0 50px;
+}
+
+.second_section{
+    background: url(https://41.media.tumblr.com/eb2382a5a4c996cfdab27bc0d1eb51ff/tumblr_nt5umxS1FY1ud7rr3o1_1280.jpg);
+    background-attachment: fixed;
+}
+
+.mypic{
+    width: 300px;
+    border-radius:50%;
+    margin: 50px;
+}
+
+.third_section{
+    background-color: darkslategrey;
+    background-repeat: round;
+    background-attachment: fixed;
+    padding: 20px;
+}
+
+third_section row{
+    padding-left: 120px;
+}
+.center{
+    margin: 0 auto;
+    width: 80%;
+}
+.center2{
+    margin: 0 33%;
+    width: 80%;
+}
+.portfolio-content{
+    border: 1px solid grey;
+    width:300px;
+    margin: 5px 5px;
+}
+
+.portfolio-title{
+    background-color: black;
+    color:white;
+    width: 250px;
+}
+
+.portfolio-pic{
+    margin: 0 0 -19px 0;
+}
+
+.portfolio-pic a:hover{
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+				
+
+
+ 
+}
+
+.fourth_section{
+    background: url(https://41.media.tumblr.com/ac46aa24b44b5036e9200abb71f810d9/tumblr_nt5vzxV6Us1ud7rr3o1_1280.jpg);
+    background-repeat: round;
+    background-attachment: fixed;
+    height:700px;
+}
+
+.fourth_section a{
+    display: block;
+    margin: 0 0 20px 0; 
+}
+
+.fifth_section{
+    background: url(images/bg.png);
+    background-attachment: fixed;
+}
+
+.footer li{
+    margin: 0 20px;    
+    display: inline;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Euphoria Script','Poiret One',cursive;
+}
+
+.footer li a{
+    color:red;
+}
+
+.footer li a:hover{
+    
+    text-decoration: line-through;
+}
